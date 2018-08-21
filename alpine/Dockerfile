@@ -12,7 +12,7 @@ COPY run.sh /opt/run.sh
 
 RUN apk add --no-cache git make g++ python \
   && cd /opt \
-  && git clone https://github.com/samcm/synclounge \
+  && git clone https://github.com/lameeagl/synclounge.git \
   && cd synclounge \
   && npm install \
   && npm run build \
